@@ -1,4 +1,4 @@
-import { Menu, X, Phone, Mail } from 'lucide-react';
+import { Menu, X, Phone } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Header() {
@@ -16,13 +16,9 @@ export default function Header() {
     <header className="fixed top-0 w-full bg-white shadow-md z-50">
       <div className="bg-primary text-white py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-end gap-6 text-sm">
-          <a href="tel:+213555123456" className="flex items-center gap-2 hover:text-accent transition">
+          <a href="tel:0542725189" className="flex items-center gap-2 hover:text-accent transition">
             <Phone size={16} />
-            <span className="hidden sm:inline">+213 555 123 456</span>
-          </a>
-          <a href="mailto:contact@souhilapromotion.dz" className="flex items-center gap-2 hover:text-accent transition">
-            <Mail size={16} />
-            <span className="hidden sm:inline">contact@souhilapromotion.dz</span>
+            <span className="hidden sm:inline">0542 72 51 89</span>
           </a>
         </div>
       </div>

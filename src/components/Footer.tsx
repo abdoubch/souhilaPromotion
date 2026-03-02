@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Phone, MapPin } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -59,18 +59,12 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <MapPin size={18} className="text-accent mt-1 flex-shrink-0" />
-                <span className="text-gray-300 text-sm">123 Avenue de l'Indépendance, Alger</span>
+                <span className="text-gray-300 text-sm">16000 Alger, 16000</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={18} className="text-accent flex-shrink-0" />
-                <a href="tel:+213555123456" className="text-gray-300 hover:text-accent transition text-sm">
-                  +213 555 123 456
-                </a>
-              </li>
-              <li className="flex items-center gap-2">
-                <Mail size={18} className="text-accent flex-shrink-0" />
-                <a href="mailto:contact@souhilapromotion.dz" className="text-gray-300 hover:text-accent transition text-sm">
-                  contact@souhilapromotion.dz
+                <a href="tel:0542725189" className="text-gray-300 hover:text-accent transition text-sm">
+                  0542 72 51 89
                 </a>
               </li>
             </ul>
